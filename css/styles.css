@@ -1,0 +1,29 @@
+/* variables */
+:root {
+    --basic-gray: #EEEEEE;
+    --page-bg-color: #ffffff;
+  
+    --title-text-color: #000000;
+    --basic-text-color: #283136;
+  
+    --basic-button-text-color: #ffffff;
+    --basic-button-text-color-opacity: rgba(255, 255, 255, 0.3);
+  
+    --basic-button-bg-color: #FB565A;
+    --basic-button-bg-color-hover: #E74246;
+    --basic-button-bg-color-active: #D7373B;
+  
+    --special-button-bg-color-1: #00CA74;
+    --special-button-bg-color-1-hover:#00BC6C;
+    --special-button-bg-color-1-active: #00AA62;
+  
+    --special-button-bg-color-2: #EFC849;
+    --special-button-bg-color-2-hover: #EAB534;
+    --special-button-bg-color-2-active: #E5A722;
+  
+    --special-button-text-color: #000000;
+    --special-button-text-color-opacity: rgba(0, 0, 0, 0.3);
+  
+    --logo-hover: #A6A6A6;
+    --special-slider: hsl(60, 10%, 98%);
+}
