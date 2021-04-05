@@ -197,3 +197,74 @@ input[type="number"]:focus {
     fill: var(--logo-hover);
 }
 
+/* features section */
+.features {
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav-features-bg {
+    width: 100%;
+    background-color: var(--basic-gray);
+}
+
+.features-list,
+.features-list h3 {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.feature-item {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: -4px;
+}
+
+.feature-item img {
+    margin-left: 397px;
+}
+
+.feature-slide {
+    position: absolute;
+}
+
+.feature-slide h3 {
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 500;
+    margin-top: 78px;
+}
+
+.feature-slide p {
+    margin-top: 27px;
+    margin-bottom: 52px;
+}
+
+.slider-buttons {
+    position: absolute;
+    left: 546px;
+    top: 317px;
+    z-index: 1;
+    display: flex;
+    width: 88px;
+    justify-content: space-between;
+}
+
+.slider-buttons button {
+    padding: 0;
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--special-slider);
+    border-radius: 50%;
+    background-color: var(--special-slider);
+    cursor: pointer;
+}
+
+.current-slide {
+    background-image: url("../img/ellipse.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
