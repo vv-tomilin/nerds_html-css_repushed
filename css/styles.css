@@ -268,3 +268,41 @@ input[type="number"]:focus {
     background-repeat: no-repeat;
 }
 
+/* site buttons */
+.button {
+    margin: 0;
+    padding: 16px 40px;
+    border-radius: 3px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 18px;
+    background-color: var(--basic-button-bg-color);
+    color: var(--basic-button-text-color);
+    cursor: pointer;
+}
+
+.special-button {
+    color: var(--special-button-text-color);
+}
+
+  /* features section button */
+.features-button {
+    margin: 0;
+    margin-left: 1px;
+}
+
+.button-on-sliders {
+    padding-left: 54px;
+    padding-right: 54px;
+}
+
+.button-on-sliders:hover,
+.button-on-sliders:focus {
+    background-color: var(--basic-button-bg-color-hover);
+}
+
+.button-on-sliders:active {
+    color: var(--basic-button-text-color-opacity);
+    background-color: var(--basic-button-bg-color-active);
+}
