@@ -450,3 +450,54 @@ input[type="number"]:focus {
     width: 25px;
     height: 2px;
 }
+
+/* work-advantages section */
+.work-advantages {
+    width: 376px;
+}
+
+.work-advantages-logo {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.work-advantages h3 {
+    margin: 0;
+    margin-top: 30px;
+    margin-right: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.work-advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 31px;
+}
+
+.work-advantage-item-percent {
+    font-size: 45px;
+    line-height: 64px;
+    font-weight: 700;
+}
+
+.work-advantage-item-percent span {
+    font-size: 26px;
+    line-height: 40px;
+    vertical-align: text-top;
+}
+
+.work-advantage-item-text {
+    margin: 0;
+    margin-top: 10px;
+    line-height: 18px;
+}
+
+.work-advantage-item {
+    margin-right: 23px;
+}
