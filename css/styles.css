@@ -609,3 +609,61 @@ input[type="number"]:focus {
     margin-top: 23px;
     line-height: 18px;
 }
+
+/* footer-social section */
+.footer-social {
+    display: flex;
+    margin-top: 68px;
+    margin-bottom: 74px;
+}
+
+.footer-social-text {
+    margin: 0;
+    margin-left: 139px;
+    order: 1;
+}
+
+.footer-social-text h3 {
+    margin: 0;
+    margin-top: 6px;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.footer-social-text p {
+    margin: 0;
+    margin-top: 10px;
+    line-height: 22px;
+}
+
+.footer-social-list {
+    width: 261px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: var(--basic-gray);
+}
+
+.social-button:hover,
+.social-button:focus {
+    background-color: var(--basic-button-bg-color);
+}
+
+.social-button:active path {
+    fill: var(--basic-button-text-color-opacity);
+}
