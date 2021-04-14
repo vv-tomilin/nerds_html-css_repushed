@@ -667,3 +667,26 @@ input[type="number"]:focus {
 .social-button:active path {
     fill: var(--basic-button-text-color-opacity);
 }
+
+/* CATALOG STYLES */
+.catalog-filter-wrapper {
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+  /* catalog h1 title */
+.catalog-main-title {
+    text-align: center;
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 500;
+    margin: 0;
+    margin-right: 34px;
+    padding-top: 71px;
+    padding-bottom: 110px;
+}
+
+.site-navigation-current {
+    border-bottom: 2px solid var(--basic-button-bg-color);
+}
