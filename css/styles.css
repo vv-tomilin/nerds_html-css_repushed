@@ -690,3 +690,243 @@ input[type="number"]:focus {
 .site-navigation-current {
     border-bottom: 2px solid var(--basic-button-bg-color);
 }
+
+/* FILTERS */
+.filter {
+    width: 260px;
+    margin-top: 3px;
+}
+
+.filter ul {
+    list-style: none;
+}
+
+.filter-item {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.filter-item legend {
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.option-list {
+    margin: 0;
+    margin-top: 19px;
+    padding: 0;
+    line-height: 19px;
+}
+
+.option-list-radio li {
+    margin-top: 22px;
+}
+
+.option-list-radio li:first-child {
+    margin-top: 13px;
+}
+
+.option-list-checkbox li {
+    margin-top: 21px;
+}
+
+.option-list-checkbox li:first-child {
+    margin-top: 20px;
+}
+
+  /* price filter */
+
+.range-filter {
+    width: 260px;
+    margin-top: 48px;
+}
+
+.range-controls {
+    position: relative;
+    height: 41px;
+    margin-bottom: 15px;
+    padding-top: 39px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: var(--basic-gray);
+    border-radius: 3px;
+}
+
+.range-controls .scale {
+    margin-top: 2px;
+    height: 2px;
+    background-color: #D7DCDF
+}
+
+.range-controls .bar {
+    width: 70%;
+    height: 2px;
+    background: #00CA74;
+}
+
+.range-controls .toggle {
+    position: absolute;
+    top: 31px;
+    left: 0;
+    width: 4px;
+    height: 4px;
+    padding: 0;
+    border: 8px solid #fff;
+    background-color: #ababab;
+    border-radius: 50%;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.range-controls .toggle-min {
+    left: 18px;
+}
+
+.range-controls .toggle-max {
+    left: 160px;
+}
+
+.price-controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-controls label {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.price-controls input {
+    width: 60px;
+    margin-left: 8px;
+    padding: 10px;
+    text-align: center;
+    color: #283136;
+    border: none;
+    border-radius: 3px;
+    background: #f1f1f1;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+  /* filter options */
+.filter-option {
+    margin: 0 auto;
+    margin-left: 36px;
+    padding: 0;
+    position: relative;
+    display: block;
+}
+
+.filter-option label {
+    cursor: pointer;
+}
+
+  /* radio filter */
+.grid-option {
+    margin-top: 59px;
+}
+
+.filter-input-radio + label::before {
+    content: "";
+    position: absolute;
+    right: 235px;
+    top: -4px;
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/radio-border.svg");
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.filter-input-radio:checked + label::after {
+    content: "";
+    position: absolute;
+    right: 243px;
+    top: 4px;
+    width: 9px;
+    height: 9px;
+    background-image: url("../img/radio-checked.svg");
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+
+.filter-input-radio:hover + label::before,
+.filter-input-radio:focus + label::before,
+.filter-input-radio:checked:hover + label::after,
+.filter-input-radio:checked:focus + label::after {
+    opacity: 1;
+}
+
+  /* checkbox filter */
+.features-option {
+    margin-top: 49px;
+}
+
+.filter-input-checkbox + label::before {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    right: 234px;
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/checkbox-border.svg");
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+
+.filter-input-checkbox:checked + label::after {
+    content: "";
+    position: absolute;
+    bottom: 4px;
+    right: 234px;
+    width: 21px;
+    height: 17px;
+    background-image: url("../img/checkbox-checked.svg");
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+
+.filter-input-radio:hover + label::before,
+.filter-input-radio:focus + label::before,
+.filter-input-radio:checked:hover + label::after,
+.filter-input-radio:checked:focus + label::after,
+.filter-input-checkbox:hover + label::before,
+.filter-input-checkbox:focus + label::before,
+.filter-input-checkbox:checked:hover + label::after,
+.filter-input-checkbox:checked:focus + label::after {
+    opacity: 1;
+}
+
+.filter-input-radio:disabled + label::before,
+.filter-input-radio:checked:disabled + label::after,
+.filter-input-checkbox:disabled + label::before,
+.filter-input-checkbox:checked:disabled + label::after {
+    opacity: 0.1;
+}
+
+.filter-button {
+    margin-top: 50px;
+    padding-left: 88px;
+    padding-right: 89px;
+    background-color: var(--basic-gray);
+    color: inherit;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    background-color: #DFDFDF;
+}
+
+.filter-button:active {
+    background-color: #D5D5D5;
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+    color: var(--special-button-text-color-opacity);
+}
