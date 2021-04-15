@@ -930,3 +930,73 @@ input[type="number"]:focus {
     box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
     color: var(--special-button-text-color-opacity);
 }
+
+/* CATALOG SORT */
+.catalog-list-container {
+    width: 776px;
+}
+
+.sort {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sort h2 {
+    margin: 0;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sort-option-list {
+    position: relative;
+    width: 299px;
+    top: 2px;
+    right: 31px;
+    margin: 0;
+    margin-left: 241px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.sort-option-item button {
+    padding: 0;
+    margin-left: 25px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.up-down-sort-buttons {
+    position: relative;
+    top: 9px;
+    right: 17px;
+    width: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.up-down-sort-buttons button {
+    width: 11px;
+    height: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+.down-button {
+    background-image: url("../img/icon-down-dir.svg");
+    background-repeat: no-repeat;
+}
+
+.up-button {
+    background-image: url("../img/icon-up-dir.svg");
+    background-repeat: no-repeat;
+}
