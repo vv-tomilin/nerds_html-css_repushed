@@ -1034,3 +1034,68 @@ input[type="number"]:focus {
     box-sizing: border-box;
     border-radius: 5px;
 }
+
+
+/* pagination list */
+.pagination-list {
+    margin: 0;
+    padding: 0;
+    margin-top: 49px;
+    margin-bottom: -20px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.pagination-button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--title-text-color);
+}
+
+.pagination-button {
+    margin-right: 11px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 18px;
+    background-color: var(--basic-gray);
+    border-radius: 3px;
+}
+
+.pagination-button-next {
+    padding-left: 78px;
+    padding-right: 77px;
+}
+
+.pagination-button:hover,
+.pagination-button:focus {
+    background-color: #DFDFDF;
+}
+
+.pagination-button:active {
+    background-color: #D5D5D5;
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+    color: var(--special-button-text-color-opacity);
+}
+
+.pagination-button a:active {
+    color: var(--special-button-text-color-opacity);
+}
+
+.pagination-button-current {
+    background: rgba(0, 0, 0, 0.0001);
+    border: 3px solid #DBDBDB;
+    box-sizing: border-box;
+    padding: 13px 17px;
+}
+
+.pagination-button-current:hover,
+.pagination-button-current:focus,
+.pagination-button-current:active,
+.pagination-button-current a:hover,
+.pagination-button-current a:focus,
+.pagination-button-current a:active {
+    background: rgba(0, 0, 0, 0.0001);
+    cursor: auto;
+    color: var(--special-button-text-color);
+}
