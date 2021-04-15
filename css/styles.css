@@ -1000,3 +1000,37 @@ input[type="number"]:focus {
     background-image: url("../img/icon-up-dir.svg");
     background-repeat: no-repeat;
 }
+
+/* CATALOG LIST */
+.catalog {
+    width: 760px;
+}
+
+.catalog-list {
+    margin-top: 25px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.header-img {
+    margin: 0;
+    padding: 0;
+    opacity: 0.12;
+}
+.main-img {
+    margin: 0;
+    margin-top: -5px;
+    padding: 0;
+}
+
+.catalog-item-img-block {
+    margin-top: 22px;
+    width: 360px;
+    background-color: #f2f2f2;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
